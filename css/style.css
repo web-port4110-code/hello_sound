@@ -1,0 +1,43 @@
+:root {
+    --m-width: 1040px;
+    --center-position: 0 auto;
+}
+
+html *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: san-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.a {
+    color: aquamarine;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .container-max-width {
+        max-width: 1040px;
+        padding: 0 20px 0 20px;
+        margin: 0 auto;
+        border: black solid 1px;
+    }
+
+    .center-position {
+        margin: 0 auto;
+    }
+}
